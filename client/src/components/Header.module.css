@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.2rem;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.li {
+  list-style: none;
+}
+.link:link,
+.link:visited {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #495057;
+  font-weight: 700;
+  /* transition: all 0.5s ease-out; */
+}
+.link:active,
+.link:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.7rem;
+  color: #212529;
+}
+
+.activeLink {
+  color: #862e9c;
+}
+
+.btn {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: #495057;
+  border: 1px solid #495057;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+.btn:hover {
+  background-color: #212529;
+}

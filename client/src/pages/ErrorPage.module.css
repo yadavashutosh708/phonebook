@@ -1,0 +1,38 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 4rem;
+}
+.title {
+  font-size: 5rem;
+  font-weight: 700;
+}
+.desc {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.details {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.btn {
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  background-color: #495057;
+  color: #fff;
+  transform: all 0.3s ease-out;
+  cursor: pointer;
+  border: 1px solid #495057;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.btn:hover {
+  background-color: #343a40;
+}
