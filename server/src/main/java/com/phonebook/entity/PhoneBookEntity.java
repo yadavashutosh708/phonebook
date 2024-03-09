@@ -11,7 +11,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "employees")
+@Table(name = "phonebook_master")
 public class PhoneBookEntity {
 
     @Id
@@ -23,5 +23,6 @@ public class PhoneBookEntity {
 
     @Column(name= "description")
     private String desciption;
+
 
 }
